@@ -1,4 +1,43 @@
 /********** For desktop view **********/
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}        
+h1 {
+  font-size: 175%;
+  margin-bottom: 45px;
+  text-align: center;
+}
+h2{
+  font-size: 125%;
+  text-align: center;
+  border: 1px solid black;
+  width: 50%;
+  position: relative;
+  left: 50%;
+  margin: 0;
+  padding: 0;            
+}
+.chicken{
+  background-color: pink;
+}
+.beef{
+  background-color: red;
+}
+.sushi{
+  background-color: gainsboro;
+}
+section{
+  background-color: gray;
+  border: 1px solid black;
+  margin: 10px;
+}
+p{
+  font-size: 100%;
+  color: white;
+  margin: 10px;
+}
+
 @media (min-width: 992px) {
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
       float: left;
@@ -85,45 +124,3 @@
     }
   }
 
-  @media (max-width: 767px) {
-    .col-sh-1, .col-sh-2, .col-sh-3, .col-sh-4, .col-sh-5, .col-sh-6, .col-sh-7, .col-sh-8, .col-sh-9, .col-sh-10, .col-sh-11, .col-sh-12 {
-      float: left;
-      width: 80%;
-    }
-    .col-sh-1 {
-      width: 8.33%;
-    }
-    .col-sh-2 {
-      width: 16.66%;
-    }
-    .col-sh-3 {
-      width: 25%;
-    }
-    .col-sh-4 {
-      width: 33.33%;
-    }
-    .col-sh-5 {
-      width: 41.66%;
-    }
-    .col-sh-6 {
-      width: 50%;
-    }
-    .col-sh-7 {
-      width: 58.33%;
-    }
-    .col-sh-8 {
-      width: 66.66%;
-    }
-    .col-sh-9 {
-      width: 74.99%;
-    }
-    .col-sh-10 {
-      width: 83.33%;
-    }
-    .col-sh-11 {
-      width: 91.66%;
-    }
-    .col-sh-12 {
-      width: 100%;
-    }
-  }
