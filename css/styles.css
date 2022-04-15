@@ -1,0 +1,79 @@
+body{
+  font-size: 16px;
+  color: #fff;
+  background-color: #c21b1b;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#header nav{
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand{
+  padding: 40px;
+}
+.navbar-brand h1{
+  font-family: 'El Messiri', sans-serif;
+  color: #61122f;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+  text-decoration: none;
+}
+
+#nav-list{
+  margin-top: 10px;
+}
+#nav-list a{
+  color: #61122f;
+  text-align: center;
+  font-size: 1.2em;
+}
+#nav-list a:hover{
+  background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
+.container{
+  padding-top: 20px;
+  width: 100%;
+}
+#menu{
+  background-color: #E7E7E7;
+  color: #222;
+  margin: 30px 10px 10px 10px;
+  height: 1000px;
+}
+h2 h3{
+  font-weight: bold;
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  #menu{
+  margin: 60px 50px 50px 50px;
+  }
+  .navbar-header button.navbar-toggle {
+    height: 50px;
+  }
+  .navbar-brand{
+    padding: 25px;
+  }
+  .navbar-brand h1{
+    margin-top: 15px;
+    padding-left: 15px;
+  }
+}
