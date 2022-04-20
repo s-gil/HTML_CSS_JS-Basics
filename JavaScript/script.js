@@ -1,15 +1,11 @@
-// function OrderChickenWith(SideDish='default'){
-// console.log("chicken with "+ SideDish)
-// }
+function Dog(name) {
+this.name = name;
+}
 
-// OrderChickenWith("rice")
+Dog.prototype.bark = function () {
+console.log(this.name + " likes barking! Bark!");
+}
 
-// if(console.log('Hello')){
-//     console.log('HEllo')
-// }
-
-// if('HEllo'){
-//     bool(console.log('YEd'))
-// }
-Boolean(5)
-
+var max = new Dog("Buddy", "Max");
+console.log(max)
+// max.bark();
